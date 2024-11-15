@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout</title>
+    <style>
+      header,footer{
+        background-color:burlywood;
+        color: black;
+        padding: 15px;
+        font-size: 20px;
+        height: 60px;
+        text-align: center;
+      }
+      section{
+        height: 500px;
+        display: grid;
+        grid-template-columns: 2fr 8fr 2fr;
+      }
+      nav div{
+        border: 1px groove yellowgreen;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: burlywood;
+        margin: 10px;
+        text-align: center;
+      }
+      main{
+        border: 1px solid gray;
+        background-color: rgb(161, 234, 240);
+        font-size: 20px;
+      }
+      main article{
+        background-color: lightseagreen;
+        font-weight: 300;
+        color: tomato;
+        width: 190px;
+      }
+      aside{
+        background-color: lightcyan;
+        color: blue;
+        font-size: 25px;
+        border: 1px dotted black;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>Flipkart Shopping</header>
+    <section>
+      <nav>
+          <div>Home</div>
+          <div>Electronic</div>
+          <div>Footware</div>
+      </nav>
+      <main>
+        <dialog open="">Are you need help!</dialog>
+      <figure>
+        Image
+        <figcaption>Image Caption</figcaption>
+      </figure>
+      <marquee behavior="" direction=""><article>70% off on Electronic</article></marquee>
+      </main>
+      <aside>Ads. Image</aside>
+    </section>
+    <footer>&copy; copyright 2025</footer>
+  </body>
+</html>
